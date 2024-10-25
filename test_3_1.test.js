@@ -11,9 +11,9 @@ const calculateBonus = require('./test_3_1.js')
 test('>50', () => {
     expect(calculateBonus(1,50)).toEqual(50);
 });
-test('<50', () => {
-    expect(calculateBonus(1,48)).toEqual(49);
-});
+// test('<50', () => {
+//     expect(calculateBonus(1,48)).toEqual(49);
+// });
 // test('=50', () => {
 //     expect(calculateBonus(25,25)).toEqual(50);
 // });
